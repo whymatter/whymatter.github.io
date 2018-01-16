@@ -200,6 +200,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 148)
   jekyll (~> 3.5.1)
+  jemoji
   rake (~> 10.1.1)
 
 RUBY VERSION

@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2018-01-16 04:18:00PM
+categories: Welcome
+---
+
+Hey and welcome to my blog!
+
+{% highlight python %}
+def greet_visitor(name):
+  print('Welcome, {}!'.format(name))
+
+greet_visitor('your name')
+{% endhighlight %}

@@ -1,6 +1,8 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: The ordinary madness of computer science
+description: >- # this means to ignore newlines until "baseurl:"
+  As I found out that github offers the possibility to publish small websites and blogs
+  I decided to publish some of the random stuff I come accross
+meta_description: "The ordinary madness of computer science"
 
 markdown: kramdown
 highlighter: rouge
@@ -9,9 +11,11 @@ paginate: 15
 # baseurl: use '' for default
 baseurl: ""
 domain_name: ""
-google_analytics: 'UA-XXXXXXXX-X'
-gems: [jekyll-paginate]
+google_analytics: 'UA-112478462-1'
+plugins:
+ - jekyll-paginate
+ - jemoji
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'https://whymatter.github.io'
+author:         'Oliver Seitz'
