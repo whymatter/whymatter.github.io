@@ -1,12 +1,11 @@
 name: The ordinary madness of computer science
 description: >- # this means to ignore newlines until "baseurl:"
-  As I found out that github offers the possibility to publish small websites and blogs
-  I decided to publish some of the random stuff I come accross
+  Interesting things about programming, neural networks, computer vision
 meta_description: "The ordinary madness of computer science"
+about: '/about'
 
 markdown: kramdown
 highlighter: rouge
-logo: false
 paginate: 15
 # baseurl: use '' for default
 baseurl: ""
@@ -15,7 +14,11 @@ google_analytics: 'UA-112478462-1'
 plugins:
  - jekyll-paginate
  - jemoji
+ - jekyll-seo-tag
+ - jekyll-sitemap
 
 # Details for the RSS feed generator
 url:            'https://whymatter.github.io'
 author:         'Oliver Seitz'
+permalink:      '/posts/:title.html'
+logo:           '/assets/images/profile.png'

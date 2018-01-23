@@ -11,7 +11,7 @@ handwriting by using a network trained with [MNIST](http://yann.lecun.com/exdb/m
 My goal is to create a header for this blog which is basically just a HTML5 canvas
 in which you can write digits from 0 to 9 using your mouse. I then tought I could 
 pass them to a simple [feedforward neural network](https://en.wikipedia.org/wiki/Feedforward_neural_network) and get an exact guess which digit you
-have written down. Kind of a cool welcome header s I think!
+have written down. Kind of a cool welcome header I think!
 
 How I coded the canvas can be read in another blog article - which first has to be written... :grin:
 

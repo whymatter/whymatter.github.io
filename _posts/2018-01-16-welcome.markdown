@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome!"
 date:   2018-01-16 04:18:00PM
 categories: Welcome
+canonical_url: 'https://github.com/jekyll/jekyll-seo-tag/'
 ---
 
 Hey and welcome to my blog!
